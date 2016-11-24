@@ -63,6 +63,8 @@
              me.serial = info.serial || 'unknown';
              channel.onCordovaInfoReady.fire();
          },function(e) {
+            console.log(e);
+
              me.available = false;
              utils.alert("[ERROR] Errore inizializzazione plugin Test: " + e);
          });
