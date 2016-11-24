@@ -1,0 +1,24 @@
+{
+  "name": "cordova-plugin-test",
+  "version": "0.0.1",
+  "description": "Cordova Device Test",
+  "cordova": {
+    "id": "cordova-plugin-test",
+    "platforms": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/save91/cordova-plugin-test.git"
+  },
+  "keywords": [
+    "cordova",
+    "test",
+    "ecosystem:cordova"
+  ],
+  "author": "",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/save91/cordova-plugin-test/issues"
+  },
+  "homepage": "https://github.com/save91/cordova-plugin-test#readme"
+}
