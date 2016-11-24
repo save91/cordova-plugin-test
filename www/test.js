@@ -34,7 +34,7 @@
   * phone, etc.
   * @constructor
   */
- function Device() {
+ function Test() {
      this.available = false;
      this.platform = null;
      this.version = null;
@@ -75,9 +75,9 @@
   * @param {Function} successCallback The function to call when the heading data is available
   * @param {Function} errorCallback The function to call when there is an error getting the heading data. (OPTIONAL)
   */
- Device.prototype.getInfo = function(successCallback, errorCallback) {
-     argscheck.checkArgs('fF', 'Device.getInfo', arguments);
-     exec(successCallback, errorCallback, "Device", "getDeviceInfo", []);
+ Test.prototype.getInfo = function(successCallback, errorCallback) {
+     argscheck.checkArgs('fF', 'Test.getInfo', arguments);
+     exec(successCallback, errorCallback, "Test", "getDeviceInfo", []);
  };
 
- module.exports = new Device();
+ module.exports = new Test();
