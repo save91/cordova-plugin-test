@@ -10,4 +10,15 @@
     <js-module src="www/test.js" name="test">
         <clobbers target="test" />
     </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Test" >
+                <param name="android-package" value="com.tosi.saverio.test.Test"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/Test.java" target-dir="src/com/tosi/saverio/device" />
+    </platform>
 </plugin>
